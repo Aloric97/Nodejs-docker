@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-docker",
+  "version": "1.0.0",
+  "description": "test using docker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aloric97/Nodejs-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aloric97/Nodejs-docker/issues"
+  },
+  "homepage": "https://github.com/Aloric97/Nodejs-docker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "sequelize": "^6.28.0"
+  }
+}

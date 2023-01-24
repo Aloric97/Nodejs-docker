@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  application:
+              container_name: exampleapp
+              ports:
+                - "5000:3000"
+              build: .
+              links:
+                - mongoose
+  mongoose:
+      container_name: mongooseDocker
+      image: mongo
+      ports:
+        - "27018:27017"
